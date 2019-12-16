@@ -1,9 +1,10 @@
 dist: trusty
 
 addons:
-    organization: "unimibsoftengcourse1920"
-    token: 
-        secure: "844d7ef10bfa58efaaf690bf19099286b696e255"
+    sonarcloud:
+        organization: "unimibsoftengcourse1920"
+        token: 
+            secure: "844d7ef10bfa58efaaf690bf19099286b696e255"
 
 script:
     - sonar-scanner
